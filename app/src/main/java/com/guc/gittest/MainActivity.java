@@ -25,12 +25,12 @@ public class MainActivity extends AppCompatActivity {
         //主分支又添加代码并提交
         //新建dev分支
         //dev分支修改内容并添加
-        mTvShow.setText("你好，master");
+        mTvShow.setText("你好，dev");
 
     }
 
     @OnClick(R.id.tv_show)
     public void onViewClicked() {
-        Toast.makeText(this,"你好，master",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"你好，dev",Toast.LENGTH_SHORT).show();
     }
 }
