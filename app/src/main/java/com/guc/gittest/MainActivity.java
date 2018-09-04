@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         //新建dev分支
         //dev分支修改内容并添加
         mTvShow.setText("你好，dev");
+        mTvShow2.setText("inject");
 
     }
 
