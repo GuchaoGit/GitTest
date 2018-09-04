@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.tv_show)
     TextView mTvShow;
+    @BindView(R.id.tv_show2)
+    TextView mTvShow2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.tv_show)
     public void onViewClicked() {
-        Toast.makeText(this,"你好，dev",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "你好，dev", Toast.LENGTH_SHORT).show();
+    }
+
+    @OnClick(R.id.tv_show2)
+    public void onViewClick() {
+        Toast.makeText(this, "你好，dev,show2", Toast.LENGTH_SHORT).show();
     }
 }
