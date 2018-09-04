@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         mTvShow.setText("你好，dev");
         mTvShow2.setText("inject");
 
+        故意改错并提交到版本库
+
     }
 
     @OnClick(R.id.tv_show)
