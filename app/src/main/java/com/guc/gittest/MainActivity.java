@@ -29,9 +29,6 @@ public class MainActivity extends AppCompatActivity {
         //dev分支修改内容并添加
         mTvShow.setText("你好，dev");
         mTvShow2.setText("inject");
-
-        故意改错并提交到版本库
-
     }
 
     @OnClick(R.id.tv_show)
