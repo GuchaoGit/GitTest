@@ -9,6 +9,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //新建dev分支
+
         //master分支
         //主分支又添加代码并提交
     }
